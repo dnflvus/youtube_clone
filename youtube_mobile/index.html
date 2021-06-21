@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+         <i class="fab fa-youtube"></i>
+         <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/video.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+        <!-- Video Info -->
+    <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#Coding</li>
+                <li>#HTML</li>
+                <li>#CSS</li>
+                <li>#JavaScript</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title clamp">
+                    유튜브 모바일 웹사이트 따라만들기 | 프론트엔드 개발자 입문편:
+                     HTML, CSS, Javascript를 활용한 유튜브 페이지 따라만들기
+                     그냥 무작정 따라만들기 이부분은 숨겨져 있어야겠지
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <span class="views">조회수 46만회 &middot; 1년전</span>
+        </div>   
+        <!-- Action -->
+            <ul class="actions">
+                <li>
+                    <button><i class="active fas fa-thumbs-up"></i><span>3.4천</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-thumbs-down"></i><span>127</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-share"></i><span>공유</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-download"></i><span>오프라인 저장</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-plus"></i><span>저장</span></button>
+                </li>
+            </ul>
+            <!-- Channel Description -->
+        <div class="channel">
+            <div class="metadata">
+                <img width="200" src="image/image.jpg" alt="">
+                <div class="info">
+                    <span class="name">유튜브 따라만들기</span>
+                    <span class="subscribers">구독자 539만명</span>
+                </div>
+            </div>
+            <button class="subscribe">구독</button>     
+        </div>
+    </section>
+    <!-- Up Next -->
+    <section class="upNext">
+        <span class="title">다음 동영상</span>
+        <ul>
+            <li class="item">
+                <div class="img"><img src="image/1.jpg" alt=""></div>
+                <div class="info">
+                    <span class="title">방탈출 하기</span>
+                    <span class="name">방탈출 성공하는 동영상</span>
+                    <span class="views">조회수 85만회</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+               <div class="img"><img src="image/2.jpg" alt=""></div>
+                <div class="info">
+                    <span class="title">패러글라이딩</span>
+                    <span class="name">패러글라이딩 동영상</span>
+                    <span class="views">조회수 156만회</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="image/3.jpg" alt=""></div>
+                <div class="info">
+                    <span class="title">리듬게임 영상</span>
+                    <span class="name">리듬게임 잘하는 영상</span>
+                    <span class="views">조회수 1억5천만회</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item"></li>
+            <li class="item"></li>
+        </ul>
+    </section>
+    </div>
+</body>
+</html>
